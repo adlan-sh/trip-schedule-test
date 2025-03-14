@@ -8,7 +8,7 @@
     ``docker exec -it app sh`` \
     ``composer install`` \
     ``exit``
-3. Войти в контейнер базы данных и ввести SQL запрос, находящийся на пути ``/data/db.sql``
+3. Войти в контейнер базы данных и ввести SQL запрос, находящийся на пути ``/data/db.sql`` \
     ``docker exec -it db psql -U user schedule_db`` \
     ``Вставить SQL запрос и нажать Enter`` 
 
